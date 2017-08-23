@@ -28,7 +28,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["http://192.168.240.106:8080/cgi-bin/koha/circ/returns.pl"],
+      "matches": ["url here"],
       "js": ["jquery-3.2.1.js", "myscript.js"],
       "run_at": "document_end"
     }

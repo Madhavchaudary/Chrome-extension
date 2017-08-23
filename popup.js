@@ -12,7 +12,7 @@ function checkin() {
     		console.log(data);
 			});
 		chrome.tabs.query({currentWindow: true, active: true}, function (tab) {
-    	chrome.tabs.update(tab.id, {url:"http://192.168.240.106:8080/cgi-bin/koha/circ/returns.pl" });
+    	chrome.tabs.update(tab.id, {url:"url here" });
 	
 	});
 });

@@ -16,7 +16,7 @@ chrome.storage.sync.get('value', function(data){
     // 	alert("attempted to read "+c+" empty tags");
     // }
     
-  	if(document.URL == "http://192.168.240.106:8080/cgi-bin/koha/circ/returns.pl" && book_array.length!=0){
+  	if(document.URL == "url here" && book_array.length!=0){
     window.document.getElementsByTagName('input')[6].value = book_array[0];
     data.value.shift();
     chrome.storage.sync.set({'value':data.value});
